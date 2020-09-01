@@ -1,0 +1,291 @@
+
+/* Main-container */
+
+.main-container {
+    margin: 0 50px;
+}
+
+/* Main-header */
+
+.main-header{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header top */
+
+.header-top{
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.main-nav{
+    flex: 3;
+}
+
+.accessibility{
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: -50px;
+    
+}
+
+.menu-item,a{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.access-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.logo {
+    width: 130px;
+}
+
+/* Header-bottom */
+
+.header-bottom{
+    height: 580px;
+    background: lightcoral;
+}
+
+.header-showcase{
+    height: 100%;
+    width: 100%;
+    background: url(/img/banner.png) center no-repeat;
+    background-size: cover;
+}
+
+.showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 80px 0 0 80px;
+}
+
+.showcase-heading, .showcase-text {
+    margin-bottom: 20px;
+}
+
+/* Utitlies */
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+
+}
+
+.btn-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-icon{
+    margin-left: 5px;
+}
+
+/* Section: products */
+
+.product {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-icon{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.product-title{
+    font-weight: bold;
+}
+
+/* Section: Sub-products */
+
+.sub-products-container{
+    display: flex;
+}
+
+.sub-product-img {
+    width: 400px;
+}
+
+.sub-product-title{
+    font-size: 1.1rem;
+}
+
+.sub-box{
+    flex: 1;
+}
+
+.sub-product-box{
+    padding: 20px;
+}
+
+.sub-product-title, .sub-product-text{
+  padding: 5px 0;
+} 
+
+.sub-box-link{
+    color:rgb(33, 33, 248) ;
+}
+
+.btn-double{
+    display: block;
+}
+
+/* Section: Product-hightlight */
+
+.product-highlight{
+    height: 580px;
+    background: lightsalmon;  
+}
+
+.product-highlight-showcase {
+    height: 100%;
+    width: 100%;
+    background: url(/img/xbox-background.jfif) center no-repeat;
+    background-size: cover;
+}
+
+.hightlight-showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 200px 0 0 100px;
+}
+
+.showcase-content-title, .showcase-content-text {
+    margin-bottom: 20px;
+}
+
+/* Section: products-work */
+
+.products-work-list{
+    display: flex;
+    list-style: none;
+}
+
+.products-work-item{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.work-img{
+    width: 400px;
+}
+
+.work-box{
+    padding: 10px;
+}
+
+.products-work-title{
+    padding-top: 40px;
+    margin-bottom: -40px;
+}
+
+.work-box-bottom-link {
+    color: rgb(33, 33, 248);
+}
+
+.work-box-title, .work-box-text{
+    padding: 5px 0;
+}
+
+/* Section: medier */
+
+.medier-list{
+    display: flex;
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+}
+
+.medier-title{
+    font-weight: lighter;
+}
+
+
+/* Main-footer */
+
+.main-footer {
+    height: 100%;
+    background: lightgrey;
+}
+
+/* Footer top */
+
+.footer-top{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.top-menu-one-item,.top-menu-two-item,.top-menu-three-item,.top-menu-four-item,.top-menu-five-item,.top-menu-six-item
+{
+    padding-top: 10px;
+    list-style: none;
+}
+
+
+
+/* Footer bottom */
+
+.footer-bottom {
+    height: 100%;
+    
+}
+
+.footer-bottom-left{
+    display: flex;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.footer-bottom-left i{
+    padding: 2px;
+}
+
+.footer-bottom-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-bottom-menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    
+}
